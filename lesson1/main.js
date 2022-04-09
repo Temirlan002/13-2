@@ -50,4 +50,15 @@ const arr = ["Aidana", true, false, 34]
 //     console.log(first_number + "=" + last_number)
 // }
 
-const otvet = alert("за домашку 10 баллов")
+// const result = alert("Эсен Гнида!!!")
+const kfd = "egedv";
+const name = "Ruslan"//String
+const age = 20
+if (age < 19){
+    console.log("не правильно")
+}else if (age === 19){
+    console.log("Все четко")
+}else {
+    console.log("Иди на хуй ")
+}
+

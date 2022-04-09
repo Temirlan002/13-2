@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="main.js"></script>
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
+<div class="all">
+    <div class="center">
+        <div class="Tima">
+            Elina
+        </div>
+        <div class="Golosh">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOIAAADfCAMAAADcKv+WAAAAwFBMVEX/d2H/Vjn////l0LX/TzD/UjL9gG/9mYn8////eGL+VTfl0bb9c13jzbH9Vzz//v//clz/Syn8XEDj1Lj9vLX7+fb+RB77x7/8clnrt5307eLl0bT8bFP7opTmy7D7raHynYP97ertsZjow6jp2cT7jn389fPwqZHx6Nz97+z9aVD6pJH719HqvaTu4tX9fGj74t32kHf1l373hW78inv8X0X4inL93dj8zcb8rJ/+k4T+tq35f2jp4Mz859/6lYR7yDP4AAAJ10lEQVR4nO2d23raOhCFkWUHW+ZkwECAJDsppYFNCt1Jm3P6/m+1ZQPGBh9GwkYWn9Zl0gv/XaOZ0TGVipKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSUj6yKrWa6G8oWoN/786bsWYthp2HmmWJ/pDCNFjemj9HncuB6A8pTIPlzNTu67jzoyX6UwpSzSPUXBtj+9d5MtYuPEJNG9ZH9ujjDHOOVbNufUJNm9SxfX2GiJXxakOoaTamKefsQtWaL7RAbn00oinnvCqHNe6bO0Q6HPHI/nVOsWpZ85swoaZ91u3R9UflfHy0xtUoYVPzKse32tkgWoNllNAfjjbu3I1Ff1pOslptd5/QH4648995pFWrZqwOCdfV0X4U/XV5yKrp/TjCdSP37QxGIyW8OhiIoVC9lL5yWDViJRB6lYMy/iN5B2DVGsY0EdGvHJ1HqUsHJewtzGYioktttK8lJ3SSBmIoVCVuyL0oraUBrkPVG46iP5VTlJDosRUxJC+r0uooZ1r1CJ2b1DDdhqp9vRT9tTzyCI25loXYdP1QlXE4eoSot8gA3IaqjNXRJzQO5xdxmlDEEf4Q/cmM8glR7xmE6BVHb+4o+qOZtCY0lhBAqnufUaqlnDUhcvogE7V1ccQdiZZyNoSkPQUSasNrLFXlsCo+IdKfTKiL3uyYNgCXYzlCdeMhjdMuFJBmHIzlaeQ8Qh8xu3fbqbnOONiWYaMj8BCR3+Ch6MnPODJUjsBDWjJaLITa1Lex/JsAOw8RtLUJNFmH6h/RDOmihCiQ8cSG6K4Rr2tl3gQIe0hrxnc2RO3nmvGuxFk1SoiMRzbCTcbBnT+lTTl7hMxjcTOrKvFq1T4hMsasiP6sqryhekCISOOWFXGdcUrajx8S0gYOMuXfs3FU2lANVfxQSk1fQY21Ea9tLF+oxnlII3XsJi+Dx6rpL8eVMatGKn5IvRWvjfi6XDbGe+hHKithUP/LdUbOaiUQIjJnJlyvqvq9anlCNdFDL1KfeW3Eo/JMq9IIeXKq5o5wuVYAUgkRcdgRtzZiuxxrx+mEtPq/sCNuWhzceSjF7Diu4odlXHDY+Lll/K8MwzHdQxqpZMYxGreRWi+Di+mA3mB857Bxsqn/dMohHjILERktDsRpfVscSzDlyEREDkdp3Nn4rSJ8IScbUa9yIA43o7EMxTEbkWHvJiR7a6MtfCcnGxH1wDtwIW3LP7aFnwEAILIup/ra1g1v5lh+ROLwROo24dCMI9hGACJy4g+jpmu4s1FwxoEgckVqkHAwFrx3DEFEDnyzeKcg4YheVoUhLo5KONgWel4VhvjKE6mTHeKDSBtBiIYV/Xhz+tLtP2dF7y7h0FmVwDurIMS9Bmf63fH0O6MlcPHORpH3AGGIeqgVN591fX3aoXeRXjA/Q6NR4JIjCDFSGW+DZYKGPv8CRioWeAYQhhhaMjYv9N3PjXbqsRU7FKriWlUYonGhbTc3Vk5kIzl1f+5nyEVxK8cwRDIOLoW96pHfGCRlPIZKI21VRSVVIGJ7tv3sJ2PP4EHMlbiYSKWtqiBGIKITjLmLPUTkpJzruA/biMUQAhFDexsHiCjlDkA4UoVtqwIRd1XjEJEkr5ibkxAiFnTTEYp4k4xIf7tKulQVKY32g5BuHIi426GKQyTzhFBtumEXacYRUTigiG9pLtJfJw3Hz4iNQibHQMTd7k0sInK6KddUIxnn9KEKRQyuv8Ujkvjr1DRUO9FQFdDjABHJ3E1FpP8HCTbeR2y0BRzkgCIGfVoCYiOpOrp4tBeqZUV0MhDpv/iKrxyfOBqqJ3/sCIrYm2Ugert0sYiRDkfE8TggIuqtshBR0mbrZI/x4cQZB4y4yEQkJH7uOK1HRuPJ3x6DIgZ9aDKid5Y8NlT3bDz1DgAYsZuNmHR+dbiHeOL31cCI7wDEpHMB+zaOTppWoYj6DQAR9eLvkbl7LlLGE76SA0a8giASPd7G+/1QpTnnZHmVAbGZjYic11hEbbKPiDsPy9ZpHucEI26nS+mIhMxiEQ9C1TtadaL1KiAhMR5BLiK9Gh+qB1nVO3j87VfrBOsAUBeDmzcZiIQk7AHEMFLIhz+twsckGHG7/5aBmHwS6TDlYP/28WPR4QpGnAMRkZG0BRDLiDujy49iCwgUkfyGBWraWethPR7SvrOKhAQjIigi6sUnVSp3v80JxuTdsjhIMKIBDdTUc4FDOx6yM/pRGCQY0QG7SJyUB8e0+yTI+o+CxiQYsQdGRHpCi7OJ1gTIEYUsxEkoIuo1wYikkXFobjhJSDz47iP/OglHdMGIu5lXspU/7VhKu3P5p5WzlXDEKRyRzN3ss0jDz1hK+3N1ZeX65ioccQZHBL6T4w7jvLQ1c9a9GOf3OAAc8ZYB0Uh+p3If834Sxbye0J+a7uL7OK9BCUf8YkBEPejBwObazQmur4Unm5+aX1etfLpXOOKKBZH9HpLrDj3tzkaY5pTGaw6ppyDEIK6PU3PxdjwkHPGZCTFpaswo0/x6HRwJCUdcMCEiPa2LY6J0u9ZRqQeM6LAhQp6rhDKa5uLtCCvhiC9MiHSCmXKqip1y9Ur7Ab5KWRgi39WHBHlFZNp/HA94IItDZH9KJhN0UZ1zlEo4Yp8REfpkJYvM25sB87pkgYg61w2WDEbTpfHKlnoKRCROLuX/UItqbcCQegpE5HqhAyTz9p2hVBaJiBzAtJFTNF7nwEFZLCLPbXKgaKmswvoB+Od22RHJ78IIfcrZ+xLgZKGISM9cxDmO0Zy+Zj/IWixi6Nh8UZT9TMZiEdnfPGRUUzO7WWtZBSOiXjflD1XkIvNvRvkoGtG73lmskdpzRt9aOCLRea6wMuki3cbCERExXgpmrIpGpL0q1z1dsMyr9A7gBIiUsbIqcECab8JdRKhhOFccjx8BNc24GXESRM/IxtVXMU6afdEZNYDUjY/+ZuaRa6X8Sgc8IaKXWh3Hen92zRzdNM1F5t8rZ0U0+RE9GU7PqVTfX1azKeu7pHF808XTPMtEOKKxrPqaZ7yqliliUDd7enteWz49vf2t8utt2XbynEwhQ/d1LOGOlLLqR8kwGpl8TIjlE2mDDrSK/sxj1M557aZ0AnooM2IbxCcxImmDF4tFfyqvgONQXkTSYNi6Ef2xfGLwUE5EAs40siKCq4W8iExRKiMiq4cSIrKNQwkRGSq+rIjsHkqGSFgzjXyIXIQyITJWfAkR2auFdIh8USoRIreH8iByjkN5EHkqvmSI3ONQFkS+ii8V4nGEEiAe6aEEiEdUC0kQebs2eRCP97D0iMeOw9Ij5uFhyRHz8LDUiPl4WGrEfDwsMeLRFb/8iLkRlhYRdBYDpP8BZdP+ejapqfQAAAAASUVORK5CYII="alt="">
+        </div>
+        <div class="Tima">
+            Esen
+        </div>
+    </div>
+    <div class="center2">
+        <div class="Tima">
+            Daulet
+        </div>
+        <div class="Golosh">
+            <img src="https://www.meme-arsenal.com/memes/0d316f8eef024694ed9f66ae22fac18b.jpg" alt="">
+        </div>
+    </div>
+
+</div>
+
 
 </body>
 </html>
